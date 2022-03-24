@@ -1,0 +1,41 @@
+using System;
+
+namespace SwitchStatement
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+ Console.WriteLine("Choose a game genre: "");
+string genre = Console.ReadLine();
+
+switch (genre)
+{
+ case "Fantasy":
+ Console.WriteLine("Ocarina of Time");
+ break;
+
+ case "Chill":
+ Console.WriteLine("Animal Crossing: New Leaf");
+ break;
+
+ case "Adventure":
+ Console.WriteLine("Breath of the Wild");
+ break;
+
+ case "Horror":
+Console.WriteLine("Little Nightmares");
+ break;
+
+ case "Science Fiction":
+ Console.WriteLine("Portal 2");
+ break;
+
+ "default"
+ Console.WriteLine("No game found");
+ break;
+}
+
+    }
+  }
+}
