@@ -1,0 +1,31 @@
+using System;
+
+namespace ElseIfStatement
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      int guests = 0;
+
+      if(guests >= 4)
+     {
+        Console.WriteLine("JackBox");
+     }
+      else if (guests >= 1)
+     {
+
+        Console.WriteLine("Mario Kart");
+     }
+     else
+     {
+
+       Console.WriteLine("Sims 4");
+     }
+      
+
+
+
+    }
+  }
+}
