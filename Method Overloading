@@ -1,0 +1,23 @@
+using System;
+
+namespace MethodOverloading
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+    NamePets("Biscut", "Sally");
+    NamePets("Patches", "Polly", "Bucket");
+    NamePets();
+    }
+      static void NamePets(string pet1, string pet2, string pet3)
+      {
+      Console.WriteLine($"Your pets {pet1}, {pet2}, and {pet3} will be joining your voyage across the seven seas!");
+    }
+   
+    static void NamePets()
+   { Console.WriteLine($"Arrr, ye have no seaworthy pets");
+    }
+ 
+  }
+}
